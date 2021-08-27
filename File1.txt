@@ -1,1 +1,100 @@
-123456
+'''is_admin = False
+if not is_admin:
+    print("not an admin")
+
+if is_admin == False:
+    print("not an admin")
+
+
+is_admin = True #pretend asking for security module
+file_exists = False #pretend asking OS about file existance
+
+should_open_file = is_admin and file_exists
+print(should_open_file)'''
+
+#print(1 > 2 or 2 > 1)
+
+
+'''print (1 < 2 < 3)
+print (1 < 2 and 2 < 3)'''
+
+
+'''print("string" == "string")
+print("string" == "another string")
+print("String" == "string")'''
+
+'''y = "String"
+x = "string"
+print(x.lower() == y.lower())
+print(x.upper() == y.upper())'''
+
+#print(2 != 1)
+
+
+'''name= "Dmytro"
+age = 22
+print(f"My name is {name} and I'm {age}")
+
+print("My name is {1} and surname {0}, and I'm a {2}".format("Dmytro", "Pelyp", "\"tester\""))
+
+
+print("My name is {} and surname {}, and I'm a {}".format("Dmytro", "Pelyp", "\"tester\""))
+
+ok = ("Dmytro")
+print("My name is {}".format(ok))
+
+print("My name is {}".format("Dmytro"))
+
+ok = ("Hello, my name is Dmitry and I'm a good \"tester\" ")
+if ok.startswith("H"):
+    print("Yep")
+else:
+    print("no")
+
+python = "Python is fun, isn't it?"
+print(python.partition("is"))
+
+python = ("python is fun")
+print(python.partition("is "))
+print(python.partition("ok"))
+
+ok = "1;2;3;4;5"
+ok1 = ok.split(";")
+print(ok1)
+
+
+
+ok = ("Hello")
+print(ok.startswith("H"))
+print(ok.endswith("o"))
+
+
+#ok= "  "
+#print(ok.strip() == "")
+
+
+
+
+#ok = ""
+#if not ok:
+#    print("empty")
+#else:
+#    print("not empty")
+
+#if 1==0:
+#    print("Ok")
+#else:
+#    print("wtf")
+#a = ("my name is Dmitry and i'm tester ok")
+#print(a.isspace())
+
+
+
+
+#x = ("Hello, I'm Dmitry and I'm a \"Tester\" ")
+#ok = x.upper ()
+#ok = x.capitalize()
+#ok = x.lower()
+
+#print(x.find("I'm",)) '''
+
